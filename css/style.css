@@ -109,6 +109,14 @@ body {
     padding: 20px;
 }
 
+.prices_purple_details_first {
+    color: white;
+    border-bottom: 1px solid #a2a6f0;
+    border-top: 1px solid #a2a6f0;
+    margin: 0 30px;
+    padding: 20px;
+}
+
 .prices_purple_learnMore {
     text-decoration: none;
     color: #676be5;
@@ -198,6 +206,16 @@ body {
     color: #646583;
     font-weight: 500;
     border-bottom: 1px solid lightgray;
+    margin: 0 30px;
+    padding: 20px 0;
+}
+
+.prices_white_details_first {
+    font-size: 16px;
+    color: #646583;
+    font-weight: 500;
+    border-bottom: 1px solid lightgray;
+    border-top: 1px solid lightgray;
     margin: 0 30px;
     padding: 20px 0;
 }
