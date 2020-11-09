@@ -2,6 +2,8 @@ let toggle = true;
 
 let app = {
 
+    toggleButton: document.getElementById('toggle_button'),
+
     init: function() {
         app.toggleButton.addEventListener('click', app.handleOnClick);
     },
@@ -11,11 +13,13 @@ let app = {
 
         if (toggle === true) {
             document.querySelector('.toggle_button_duration').style = "margin-left: 3px";
+            document.querySelector('.prices_white_price_basic').textContent = "199.99";
+            document.querySelector('.prices_white_price_master').textContent = "399.99";
         } else {
             document.querySelector('.toggle_button_duration').style = "margin-left: 22px";
+            document.querySelector('.prices_white_price_basic').textContent = "19.99";
+            document.querySelector('.prices_white_price_master').textContent = "39.99";
         }
-
-        console.log(duration);
     }
     
 }

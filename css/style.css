@@ -59,17 +59,8 @@ body {
     margin-top: 2px;
     margin-left: 3px;
     border-radius: 8px;
-    transition: margin-left .3s ease-in-out;
+    transition: margin-left .2s ease-in-out;
 }
-
-/* .toggle_button_monthly {
-    height: 16px;
-    width: 16px;
-    background-color: white;
-    margin-top: 2px;
-    margin-left: 22px;
-    border-radius: 8px;
-} */
 
 .prices {
     display: flex;
@@ -150,6 +141,21 @@ body {
 
 }
 
+.prices_white_total {
+    display: flex;
+    justify-content: center;
+}
+
+.prices_white_dollar {
+    font-size: 30px;
+    font-weight: bold;
+    color: #3b3c51;
+    margin: 0px 10px;
+    padding-top: 32px;
+    padding-bottom: 20px;
+    
+}
+
 .prices_white_price {
     font-size: 50px;
     font-weight: bold;
@@ -157,7 +163,25 @@ body {
     margin: 0px 30px;
     padding-top: 20px;
     padding-bottom: 20px;
-    border-bottom: 1px solid lightgray;
+    
+}
+
+.prices_white_price_basic {
+    font-size: 50px;
+    font-weight: bold;
+    color: #3b3c51;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0;
+}
+
+.prices_white_price_master {
+    font-size: 50px;
+    font-weight: bold;
+    color: #3b3c51;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0;
 }
 
 .prices_white_details {
@@ -166,7 +190,11 @@ body {
     font-weight: 500;
     border-bottom: 1px solid lightgray;
     margin: 0 30px;
-    padding: 20px;
+    padding: 20px 0;
+}
+
+.prices_white_details:first-child {
+    border-top: 1px solid lightgray;
 }
 
 .prices_white_learnMore {
