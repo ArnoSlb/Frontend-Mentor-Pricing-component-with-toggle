@@ -1,7 +1,5 @@
 .attribution {
-    position: absolute;
-    bottom: 0;
-    margin: 0 45%;
+    margin-top: 40px;
 }
 
 body {
@@ -54,14 +52,24 @@ body {
 
 }
 
-.toggle_button_annualy {
+.toggle_button_duration {
     height: 16px;
     width: 16px;
     background-color: white;
     margin-top: 2px;
     margin-left: 3px;
     border-radius: 8px;
+    transition: margin-left .3s ease-in-out;
 }
+
+/* .toggle_button_monthly {
+    height: 16px;
+    width: 16px;
+    background-color: white;
+    margin-top: 2px;
+    margin-left: 22px;
+    border-radius: 8px;
+} */
 
 .prices {
     display: flex;
@@ -190,8 +198,6 @@ body {
        position: unset;
        margin: 20px;
     }
-
-
 
     .prices_purple {
         height: 450px;
