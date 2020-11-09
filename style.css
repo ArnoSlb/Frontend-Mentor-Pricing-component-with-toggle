@@ -1,0 +1,184 @@
+.attribution {
+    position: absolute;
+    bottom: 0;
+    margin: 0 45%;
+}
+
+body {
+    background-color: #efefff;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.titre {
+    font-size: 20px;
+    color: #646583;
+    margin-top: 4em;
+}
+
+.image_rightcorner {
+    position: absolute;
+    top:0;
+    right: 0;
+    z-index: -1;
+}
+
+.image_leftcorner {
+    position: absolute;
+    bottom:0;
+    left: 0;
+    z-index: -1;
+
+}
+
+.toggle {
+    display: flex;
+    justify-content: center;
+    margin: 3.5em 0;
+
+}
+
+.toggle_title {
+    font-size: 12px;
+    margin: 0 1em;
+    color: #b7b7c3;
+    margin-top: 2px;
+}
+
+.toggle_button {
+    height: 20px;
+    width: 40px;
+    background: linear-gradient(to right, #a2a6f0, #676be5);
+    border-radius: 10px;
+
+}
+
+.toggle_button_annualy {
+    height: 16px;
+    width: 16px;
+    background-color: white;
+    margin-top: 2px;
+    margin-left: 3px;
+    border-radius: 8px;
+}
+
+.prices {
+    display: flex;
+    justify-content: center;
+}
+
+.prices_purple {
+    height: 500px;
+    width: 300px;
+    border-radius: 10px;
+    background: linear-gradient(to bottom right, #a2a6f0, #676be5);
+}
+
+.prices_purple_title {
+    margin-top: 65px;
+    margin-bottom: 0;
+    font-size: 16px;
+    color: white;
+    font-weight: 500;
+}
+
+.prices_purple_price {
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    margin: 0 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #a2a6f0;
+    
+}
+
+.prices_purple_details {
+    color: white;
+    border-bottom: 1px solid #a2a6f0;
+    margin: 0 30px;
+    padding: 20px;
+}
+
+.prices_purple_learnMore {
+    text-decoration: none;
+    color: #676be5;
+    background-color: white;
+    padding: 1em 6em;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 10px;
+    font-size: 12px;
+    letter-spacing: .1rem;
+    
+}
+
+.prices_purple_learnMore:hover {
+    border: white solid 1px;
+    background: none;
+    color: white;
+}
+
+.prices_purple_learnMore_frame {
+    margin-top: 40px;
+}
+
+.prices_white {
+    height: 450px;
+    width: 300px;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 25px;
+    margin-bottom: 0;
+   
+}
+
+.prices_white_title {
+    margin-top: 40px;
+    margin-bottom: 0;
+    font-size: 16px;
+    color: #646583;
+
+}
+
+.prices_white_price {
+    font-size: 50px;
+    font-weight: bold;
+    color: #3b3c51;
+    margin: 0px 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid lightgray;
+}
+
+.prices_white_details {
+    font-size: 16px;
+    color: #646583;
+    font-weight: 500;
+    border-bottom: 1px solid lightgray;
+    margin: 0 30px;
+    padding: 20px;
+}
+
+.prices_white_learnMore {
+    text-decoration: none;
+    color: white;
+    background: linear-gradient(to right, #a2a6f0, #676be5);
+    padding: 1em 6em;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 10px;
+    font-size: 12px;
+    letter-spacing: .1rem;
+    
+}
+
+.prices_white_learnMore:hover {
+    border: #3b3c51 solid 1px;
+    background: none;
+    color: #676be5;
+}
+
+.prices_white_learnMore_frame {
+    margin-top: 40px;
+}

@@ -6,8 +6,9 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
   
-  <title>Frontend Mentor | [Challenge Name Here]</title>
+  <title>Frontend Mentor | Pricing component with toggle</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
@@ -16,48 +17,57 @@
   </style>
 </head>
 <body>
-  <h1>Our Pricing</h1>
-  <div>
-    <h2>Annually</h2>
-    <h2>Monthly</h2>
-  </div>
-  <div>
-    <div>
-      <h3>Basic</h3>
-      <span>&dollar;19.99</span>
-      <span>&dollar;199.99</span>
-      <p>500 GB Storage</p>
-      <p>2 Users Allowed</p>
-      <p>Send up to 3 GB</p>
-      <a href="Learn More"></a>
+  <h1 class="titre">Our Pricing</h1>
+  <img class="image_rightcorner" src="images/bg-top.svg" alt="">
+  <img class="image_leftcorner" src="images/bg-bottom.svg" alt="">
+  <div class="toggle">
+    <h2 class="toggle_title">Annually</h2>
+    <div class="toggle_button">
+      <div class="toggle_button_annualy">
+        
+      </div>
     </div>
+    <h2 class="toggle_title">Monthly</h2>
   </div>
-  <div>
-    <div>
-      <h3>Professional</h3>
-      <span>&dollar;24.99</span>
-      <span>&dollar;249.99</span>
-      <p>1 TB Storage</p>
-      <p>5 Users Allowed</p>
-      <p>Send up to 10 GB</p>
-      <a href="Learn More"></a>
+  <div class="prices">
+    <div class="prices_white">
+      <h3 class="prices_white_title">Basic</h3>
+      <!-- <span>&dollar;19.99</span> -->
+      <p class="prices_white_price">&dollar; 199.99</p>
+      <p class="prices_white_details">500 GB Storage</p>
+      <p class="prices_white_details">2 Users Allowed</p>
+      <p class="prices_white_details">Send up to 3 GB</p>
+      <div class="prices_white_learnMore_frame">
+        <a class="prices_white_learnMore" href="Learn More">Learn More</a>
+      </div>
     </div>
-  </div>
-  <div>
-    <div>
-      <h3>Master</h3>
-      <span>&dollar;39.99</span>
-      <span>&dollar;399.99</span>
-      <p>2 TB Storage</p>
-      <p>10 Users Allowed</p>
-      <p>Send up to 20 GB</p>
-      <a href="Learn More"></a>
+    <div class="prices_purple">
+      <h3 class="prices_purple_title">Professional</h3>
+      <!-- <span>&dollar;24.99</span> -->
+      <p class="prices_purple_price">&dollar; 249.99</p>
+      <p class="prices_purple_details">1 TB Storage</p>
+      <p class="prices_purple_details">5 Users Allowed</p>
+      <p class="prices_purple_details">Send up to 10 GB</p>
+      <div class="prices_purple_learnMore_frame">
+        <a class="prices_purple_learnMore" href="Learn More">Learn More</a>
+      </div>
+    </div>
+    <div class="prices_white">
+      <h3 class="prices_white_title">Master</h3>
+      <!-- <span>&dollar;39.99</span> -->
+      <p class="prices_white_price">&dollar; 399.99</p>
+      <p class="prices_white_details">2 TB Storage</p>
+      <p class="prices_white_details">10 Users Allowed</p>
+      <p class="prices_white_details">Send up to 20 GB</p>
+      <div class="prices_white_learnMore_frame">
+        <a class="prices_white_learnMore" href="Learn More">Learn More</a>
+      </div>
     </div>
   </div>
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="https://github.com/ArnoSlb">Arnaud Soulabaille</a>.
   </div>
 </body>
 </html>
