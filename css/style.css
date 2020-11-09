@@ -82,14 +82,23 @@ body {
     font-weight: 500;
 }
 
+.prices_purple_dollar {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    margin: 0px 10px;
+    padding-top: 32px;
+    padding-bottom: 20px;
+    
+}
+
 .prices_purple_price {
     font-size: 50px;
     font-weight: bold;
     color: white;
-    margin: 0 30px;
     padding-top: 20px;
     padding-bottom: 20px;
-    border-bottom: 1px solid #a2a6f0;
+    margin: 0;
     
 }
 
@@ -141,7 +150,7 @@ body {
 
 }
 
-.prices_white_total {
+.prices_total {
     display: flex;
     justify-content: center;
 }
